@@ -212,7 +212,7 @@ describe('Document utility tests', () => {
                     for (const char of terminatorString) {
                         terminatorMap.set(char, [false, true]);
                     }
-                    const quoteArray = [['「', '」'], ['『', '』'], ['\'', '\''], ['"', '"']];
+                    const quoteArray = [['「', '」'], ['『', '』'], ['"', '"']];
                     /** @type {import('text-scanner').SentenceForwardQuoteMap} */
                     const forwardQuoteMap = new Map();
                     /** @type {import('text-scanner').SentenceBackwardQuoteMap} */
